@@ -4,3 +4,5 @@ variables. In order to reduce the size of the dataset, to extract useful informa
 is a function of the Topological Overlap Matrix (TOM) whose entries measure the strength of connectivity between predictors. The resulting CCNSVM method penalty is a combination of CCN and the LASSO, Scad or MCP penalty. The approach we will discuss implements an efficient algorithm that alternates between the search for homogeneous groups (K-means) and the optimization of a penalized SVM loss function using majorization–minimization tricks and a coordinate descent algorithm. In the
 end, we perform simulations following two scenarios and we also use a real data set available in R.
 Then, we apply the CCNSVM model and compare its performance with that of the old methods. At the end of this comparison we will show that the new method favors sparsity while achieving the goal of binary classification.
+Langage de programmation: R
+Packages: ccnsvm / gcdnet / WGCNA
